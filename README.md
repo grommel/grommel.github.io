@@ -1,2 +1,76 @@
 # grommel.github.io
 Academic website for Rommel Guerrero
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rommel Guerrero | Physicist</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        nav {
+            margin-bottom: 1.5rem;
+        }
+        nav a {
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Rommel Guerrero</h1>
+    <p><strong>Physicist | Educator | Researcher</strong></p>
+
+    <nav>
+        <a href="cv.pdf">CV</a>
+        <a href="#books">Books</a>
+        <a href="#videos">Videos</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a physicist with a Ph.D. in Fundamental Physics. I have taught Classical and Quantum Mechanics in Venezuela and Ecuador, and I'm passionate about teaching, research, and sharing knowledge online. I currently live in Plano, Texas, and work at The Home Depot while continuing my academic projects.</p>
+    </section>
+
+    <section id="books">
+        <h2>Books</h2>
+        <ul>
+            <li><strong>Classical Mechanics</strong> – Work in progress. Available soon.</li>
+            <li><strong>Quantum Mechanics</strong> – Work in progress. Available soon.</li>
+        </ul>
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <p>Soon I will be uploading physics videos in English and Spanish. Stay tuned!</p>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>Coming soon: articles, conference papers, and supervised theses.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>GitHub: <a href="https://github.com/grommel" target="_blank">github.com/grommel</a></p>
+    </section>
+
+</body>
+</html>
+
