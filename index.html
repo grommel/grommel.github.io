@@ -2,151 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rommel Guerrero – Academic Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rommel Guerrero – Physicist & Educator</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
       line-height: 1.6;
+      background-color: #fefefe;
       color: #222;
-      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2d3e50;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
     }
     nav {
-      margin-bottom: 2rem;
+      background-color: #444;
+      padding: 0.5rem 0;
+      text-align: center;
     }
     nav a {
-      margin-right: 1rem;
+      color: white;
       text-decoration: none;
-      color: #0366d6;
-      font-weight: bold;
+      margin: 0 1.5rem;
+      font-weight: 500;
     }
-    h1, h2 {
-      color: #1a1a1a;
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
     }
     footer {
-      margin-top: 3rem;
-      font-size: 0.9em;
+      text-align: center;
+      padding: 2rem;
+      background-color: #f0f0f0;
       color: #666;
-    }
-    .section {
-      margin-bottom: 3rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
 
-  <h1>Rommel Guerrero</h1>
-  <p>Physicist | Educator | Researcher</p>
+  <header>
+    <h1>Rommel Guerrero</h1>
+    <p>Physicist | Educator | Researcher</p>
+  </header>
 
   <nav>
-    <a href="index.html">Home</a>
+    <a href="#home">Home</a>
     <a href="cv.html">CV</a>
     <a href="#books">Books</a>
     <a href="#videos">Videos</a>
     <a href="#papers">Papers</a>
-    <a href="#students">Advised Work</a>
+    <a href="#thesis">Advised Work</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <div class="section" id="about">
-    <h2>About Me</h2>
-    <p>I am a physicist with a Ph.D. in Fundamental Physics. I have taught at universities in Venezuela and Ecuador and have extensive experience in Classical Mechanics, Quantum Mechanics, and Mathematical Methods in Physics. Currently, I’m working on developing physics textbooks, creating educational content for YouTube, and building this academic platform to share my work and research.</p>
-  </div>
+  <div class="container">
 
-  <div class="section" id="books">
-    <h2>📘 Books in Progress</h2>
-    <ul>
-      <li><strong>Classical Mechanics</strong> – A rigorous and detailed undergraduate-level textbook.</li>
-      <li><strong>Quantum Mechanics</strong> – Based on Griffiths, expanded with derivations, discussions, and examples.</li>
-    </ul>
-    <p>Books will be available soon in PDF and LaTeX format.</p>
-  </div>
+    <section id="home">
+      <h2>About Me</h2>
+      <p>I am a physicist with a Ph.D. in Fundamental Physics. I've taught at universities in Venezuela and Ecuador, covering a wide range of topics including Classical Mechanics, Quantum Mechanics, and Mathematical Methods. I'm passionate about teaching and sharing knowledge through books, videos, and academic writing.</p>
+    </section>
 
-  <div class="section" id="videos">
-    <h2>🎥 Educational Videos</h2>
-    <p>I am creating a YouTube channel to explain physics in English as a way to teach and practice language fluency.</p>
-    <ul>
-      <li>Charged particles in magnetic fields</li>
-      <li>One-dimensional quantum systems</li>
-      <li>Oscillations and energy conservation</li>
-    </ul>
-    <p>Stay tuned for links to my video channel.</p>
-  </div>
+    <section id="books">
+      <h2>Books</h2>
+      <ul>
+        <li><strong>Classical Mechanics</strong> – A rigorous and comprehensive undergraduate textbook.</li>
+        <li><strong>Quantum Mechanics</strong> – A clear, detailed treatment with derivations and conceptual explanations.</li>
+      </ul>
+      <p>Books will be available soon in PDF and LaTeX format.</p>
+    </section>
 
-  <div class="section" id="papers">
-    <h2>📜 Research Papers</h2>
-    <p>Here I will list my published articles and conference proceedings.</p>
-    <ul>
-      <li>Paper 1 – Title, Journal, Year</li>
-      <li>Paper 2 – Title, Journal, Year</li>
-    </ul>
-  </div>
+    <section id="videos">
+      <h2>Videos</h2>
+      <p>I am creating physics videos in English as a tool to both teach and practice language fluency. Topics include:</p>
+      <ul>
+        <li>Charged particles in magnetic fields</li>
+        <li>Wavefunctions and observables</li>
+        <li>Oscillations and conservation laws</li>
+      </ul>
+      <p>Links will be posted here once the channel is active.</p>
+    </section>
 
-  <div class="section" id="students">
-    <h2>🎓 Thesis and Student Projects</h2>
-    <p>During my academic career I have supervised several undergraduate thesis projects. I plan to upload summaries and links to the most relevant works.</p>
-    <ul>
-      <li>Student 1 – Topic (Institution, Year)</li>
-      <li>Student 2 – Topic (Institution, Year)</li>
-    </ul>
-  </div>
+    <section id="papers">
+      <h2>Research Papers</h2>
+      <p>Here I will include my academic publications and preprints:</p>
+      <ul>
+        <li>Paper Title – Journal Name, Year</li>
+        <li>Another Paper – Conference or Repository</li>
+      </ul>
+    </section>
 
-  <div class="section" id="contact">
-    <h2>📬 Contact</h2>
-    <p>You can reach me via:</p>
-    <ul>
-      <li>Email: rommel.guerrero[at]example.com</li>
-      <li>GitHub: <a href="https://github.com/grommel" target="_blank">github.com/grommel</a></li>
-    </ul>
+    <section id="thesis">
+      <h2>Advised Student Work</h2>
+      <p>As an academic advisor, I have supervised several undergraduate theses. I will add selected topics and authors here:</p>
+      <ul>
+        <li>John Doe – Nonlinear Oscillations in Classical Mechanics (University, Year)</li>
+        <li>Jane Smith – Quantum Well Potentials (University, Year)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to contact me via:</p>
+      <ul>
+        <li>Email: rommel.guerrero[at]example.com</li>
+        <li>GitHub: <a href="https://github.com/grommel" target="_blank">grommel</a></li>
+        <li>LinkedIn or ResearchGate (optional in future)</li>
+      </ul>
+    </section>
+
   </div>
 
   <footer>
-    <p>&copy; 2025 Rommel Guerrero. All rights reserved.</p>
+    &copy; 2025 Rommel Guerrero. All rights reserved.
   </footer>
 
 </body>
-</html>
-
-    <p>Physicist • Educator • Researcher</p>
-    <nav>
-      <a href="cv.html">Curriculum Vitae</a>
-      <a href="#books">Books</a>
-      <a href="#videos">Videos</a>
-      <a href="#papers">Papers</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section id="books">
-    <h2>📘 Books in Progress</h2>
-    <ul>
-      <li><strong>Classical Mechanics:</strong> Undergraduate textbook based on Hauser and Marion, with detailed derivations and examples.</li>
-      <li><strong>Quantum Mechanics:</strong> Undergraduate level with derivations, conservation laws, and applications.</li>
-    </ul>
-  </section>
-
-  <section id="videos">
-    <h2>🎥 Educational Videos</h2>
-    <p>In progress: YouTube channel focused on explaining basic college-level physics in English, aimed at improving language and teaching skills.</p>
-  </section>
-
-  <section id="papers">
-    <h2>📄 Research Papers & Theses</h2>
-    <ul>
-      <li>Peer-reviewed publications in quantum cosmology, classical general relativity, and field theory.</li>
-      <li>Supervised undergraduate theses in theoretical physics.</li>
-      <li>Plans to upload PDF versions soon.</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>📬 Contact</h2>
-    <p>Email: <a href="mailto:rommelguerrero@gmail.com">rommelguerrero@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/grommel" target="_blank">grommel</a></p>
-    <p>Location: Plano, Texas, USA</p>
-  </section>
-</body>
-</html>
 </html>
