@@ -1,4 +1,14 @@
 /* style.css */
+
+body {
+  background-color: lightyellow;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  line-height: 1.6;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
