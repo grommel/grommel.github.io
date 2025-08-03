@@ -94,15 +94,18 @@ body {
   margin-bottom: 1em;
 }
 
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  object-position: center 20%; /*  mueve el área visible hacia abajo */
-  max-height: 280px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/banner3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #000; /* Cambia el texto a negro */
 }
+
 
 
 
