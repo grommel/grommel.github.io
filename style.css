@@ -99,8 +99,10 @@ body {
   height: auto;
   display: block;
   object-fit: cover;
-  max-height: 280px; /* Puedes ajustar a 200, 300, etc. */
+  object-position: center 20%; /*  mueve el área visible hacia abajo */
+  max-height: 280px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 
