@@ -1,1 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  flex: 1;
+  max-width: 250px;
+  text-align: center;
+}
+
+.right-column {
+  flex: 2;
+  min-width: 300px;
+}
+
+.profile-photo {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 0.5em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  margin: 0.3em 0 0;
+  font-size: 1.5em;
+}
+
+.title {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+.icon-links {
+  font-size: 1em;
+}
+
+.icon-links.left-aligned {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.icon-links p {
+  margin: 0.5em 0;
+}
+
+.icon-links button,
+.icon-links a {
+  background: none;
+  border: none;
+  font-size: 1em;
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon-links button:hover,
+.icon-links a:hover {
+  text-decoration: underline;
+}
+
+.summary {
+  line-height: 1.7;
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+.education h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 1em;
+}
 
