@@ -5,10 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rommel Guerrero – Physics Professor</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    function sendEmail() {
+      window.location.href = "mailto:rommel.guerrero@gmail.com";
+    }
+  </script>
 </head>
 <body>
   <div class="container two-columns">
+    <!-- Left Column -->
     <div class="left-column">
+      <img src="assets/rommel.jpg" alt="Rommel Guerrero" class="profile-photo"/>
+      
+      <div class="icon-links">
+        <p><button onclick="sendEmail()" title="Email me">✉️ Email</button></p>
+        <p><a href="https://www.researchgate.net/profile/Rommel_Guerrero" target="_blank" title="ResearchGate">🔬 ResearchGate</a></p>
+        <p><a href="https://inspirehep.net/authors?search=Rommel+Guerrero" target="_blank" title="Inspire HEP">📚 Inspire HEP</a></p>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
       <h1>Rommel Guerrero</h1>
       <p class="subtitle">Ph.D. in Fundamental Physics</p>
 
@@ -20,16 +37,6 @@
           Adept in Mathematica, Maple, Python, and Excel for computational problem-solving. Committed to innovative, student-centered teaching. Bilingual: Spanish and English.
         </p>
       </section>
-    </div>
-
-    <div class="right-column">
-      <img src="assets/rommel.jpg" alt="Rommel Guerrero" class="profile-photo"/>
-
-      <div class="icon-links">
-        <p><a href="mailto:rommel.guerrero@gmail.com" title="Email"><span class="icon">✉️</span> Email</a></p>
-        <p><a href="https://www.researchgate.net/profile/Rommel_Guerrero" target="_blank" title="ResearchGate"><span class="icon">🔬</span> ResearchGate</a></p>
-        <p><a href="https://inspirehep.net/authors?search=Rommel+Guerrero" target="_blank" title="Inspire HEP"><span class="icon">📚</span> Inspire HEP</a></p>
-      </div>
     </div>
   </div>
 </body>
