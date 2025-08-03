@@ -1,55 +1,36 @@
-body {
-  font-family: Georgia, serif;
-  margin: 0;
-  padding: 0;
-  background: #fdfdfd;
-  color: #222;
-}
-
-nav {
-  background-color: #333;
-  padding: 1em;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1em;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-main {
-  max-width: 800px;
-  margin: auto;
-  padding: 2em;
-  text-align: center;
-}
-
-.profile-photo {
-  width: 160px;
-  border-radius: 50%;
-  margin-bottom: 1em;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.subtitle {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 0;
-  color: #555;
-}
-
-.contact {
-  margin: 0.5em 0 1.5em;
-  color: #444;
-}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deleted content of style.css
