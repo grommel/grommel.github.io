@@ -7,10 +7,12 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 2em;
+  border-radius: 12px;
 }
+
 
 .two-columns {
   display: flex;
