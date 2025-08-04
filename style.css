@@ -27,13 +27,15 @@ body {
 .right-column {
   flex: 1;
   min-width: 300px;
+  font-size: 1.05em;
+  line-height: 1.7;
+  text-align: justify;
 }
 
 .photo-wrapper {
   text-align: left;
   margin-bottom: 1em;
 }
-
 
 .profile-photo {
   width: 160px;
