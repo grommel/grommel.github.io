@@ -29,11 +29,11 @@ body {
   min-width: 300px;
 }
 
-/* Imagen */
 .photo-wrapper {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
 }
+
 
 .profile-photo {
   width: 160px;
