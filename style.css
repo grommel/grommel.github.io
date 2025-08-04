@@ -65,7 +65,7 @@ body {
 }
 
 .icon-links p {
-  margin: 0.8em 0;
+  margin: 1.5em 0;
 }
 
 .icon-links a {
@@ -76,6 +76,7 @@ body {
 .icon-links a:hover {
   text-decoration: underline;
 }
+
 
 .summary {
   line-height: 1.7;
