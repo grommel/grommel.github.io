@@ -1,3 +1,13 @@
+/* Tipografía y fondo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Contenedor principal */
 .container.two-columns {
   max-width: 900px;
   margin: 40px auto;
@@ -7,16 +17,19 @@
   flex-wrap: wrap;
 }
 
+/* Columna izquierda */
 .left-column {
-  flex: 0 0 240px; /* ancho fijo */
+  flex: 0 0 240px;
   max-width: 240px;
 }
 
+/* Columna derecha */
 .right-column {
   flex: 1;
   min-width: 300px;
 }
 
+/* Imagen */
 .photo-wrapper {
   text-align: center;
   margin-bottom: 1em;
@@ -24,10 +37,11 @@
 
 .profile-photo {
   width: 160px;
-  border-radius: 4px; /* marco cuadrado */
+  border-radius: 4px; /* cuadrado con esquinas suaves */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Nombre y título */
 .name {
   font-size: 1.4em;
   margin-top: 0.5em;
@@ -43,6 +57,7 @@
   text-align: left;
 }
 
+/* Íconos */
 .icon-links {
   font-size: 1em;
   margin-left: 4px;
@@ -61,6 +76,7 @@
   text-decoration: underline;
 }
 
+/* Sección de resumen y educación */
 .summary,
 .education {
   font-size: 1.05em;
@@ -68,6 +84,8 @@
   text-align: justify;
 }
 
+/* Título de educación */
 .education h3 {
   margin-top: 2em;
+  font-size: 1.2em;
 }
