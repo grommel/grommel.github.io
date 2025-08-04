@@ -7,11 +7,11 @@ body {
 }
 
 .container {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 2em;
-  border-radius: 12px;
+  max-width: 800px; /* antes 1000px */
+  margin: 40px auto;
+  padding: 0 20px;
 }
+
 
 
 .two-columns {
